@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Diagrama del ensamble secuencial">
+  <rect width="960" height="600" fill="#10243d"/>
+  <g fill="none" stroke="#254767" stroke-width="1">
+    <path d="M0 120H960M0 240H960M0 360H960M0 480H960M120 0V600M240 0V600M360 0V600M480 0V600M600 0V600M720 0V600M840 0V600"/>
+  </g>
+  <text x="62" y="92" fill="#90b8de" font-family="ui-monospace,monospace" font-size="22">SEQUENTIAL ENSEMBLE</text>
+  <text x="62" y="143" fill="#f5faff" font-family="Arial,sans-serif" font-size="38" font-weight="700">Aprender del error</text>
+  <g font-family="ui-monospace,monospace" font-size="18" text-anchor="middle">
+    <rect x="62" y="243" width="172" height="110" rx="18" fill="#193e62" stroke="#3b82b9"/>
+    <text x="148" y="289" fill="#93c5fd">01</text><text x="148" y="321" fill="#fff">datos</text>
+    <rect x="292" y="243" width="172" height="110" rx="18" fill="#145685" stroke="#64bbfa"/>
+    <text x="378" y="289" fill="#bce3ff">02</text><text x="378" y="321" fill="#fff">modelo</text>
+    <rect x="522" y="243" width="172" height="110" rx="18" fill="#1d4771" stroke="#5d9fd7"/>
+    <text x="608" y="289" fill="#a9d5ff">03</text><text x="608" y="321" fill="#fff">residuo</text>
+    <rect x="752" y="243" width="172" height="110" rx="18" fill="#1a6aaa" stroke="#a8ddff"/>
+    <text x="838" y="289" fill="#d2ebff">04</text><text x="838" y="321" fill="#fff">corregir</text>
+  </g>
+  <g fill="none" stroke="#8ccaff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M246 299h34m-11-11 11 11-11 11M476 299h34m-11-11 11 11-11 11M706 299h34m-11-11 11 11-11 11"/>
+  </g>
+  <path d="M838 376c0 95-140 146-352 146-173 0-338-55-338-137" fill="none" stroke="#4a9dd8" stroke-width="3" stroke-dasharray="8 10"/>
+  <text x="480" y="490" fill="#aac9e7" font-family="ui-monospace,monospace" font-size="18" text-anchor="middle">cada iteración mejora la predicción acumulada</text>
+</svg>
