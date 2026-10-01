@@ -39,12 +39,20 @@ El botón de CV descarga la versión entregada por el autor para el idioma selec
 Desde esta carpeta: `python -m http.server 8766 --bind 127.0.0.1 --directory dist`.
 Abre http://127.0.0.1:8766/.
 
-La URL pública prevista es https://carlosmdpb.github.io/. El despliegue está pendiente.
+URL pública: https://carlosmdpb.github.io/.
 
 ## Publicación en GitHub Pages
 
 Repositorio: `carlosmdpb/carlosmdpb.github.io`. En Settings → Pages, el origen de publicación debe ser GitHub Actions.
 
 El flujo `.github/workflows/pages.yml` publica únicamente `dist/` cuando cambia la web en `main`. También se puede ejecutar manualmente desde Actions. Las capturas y referencias locales no se publican.
+
+## Vista previa al compartir
+
+`dist/assets/portfolio-social.png` es la portada horizontal de 1200 × 627 píxeles: figura sentada completa y terminal con los cuatro comandos en `[OK]`. `dist/index.html` declara esta imagen mediante Open Graph y Twitter Cards con su URL pública absoluta.
+
+La composición editable está en `tools/social-preview.html`, fuera de la carpeta publicada. Usa la figura original de carga y las mismas fuentes y colores del portfolio. Para regenerarla, sirve la raíz del proyecto, abre esa página y exporta una captura de su lienzo de 1200 × 627 píxeles cuando hayan cargado las fuentes y la figura.
+
+Tras publicar una nueva miniatura, actualiza la vista previa del enlace en LinkedIn con https://www.linkedin.com/post-inspector/. Si una tarjeta de Destacados conserva la imagen anterior, vuelve a añadir el enlace.
 
 El emblema de Cambridge procede de https://candidates.cambridgeenglish.org/common/images/cambridge-assessment-english-shield_192x192.png.
