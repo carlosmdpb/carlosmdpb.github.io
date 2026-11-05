@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portada del portfolio · 1200 × 627</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 627px; overflow: hidden; }
+    body { background: #101114; color: #f3f4f7; font-family: "DM Sans", Arial, sans-serif; }
+    .cover { position: relative; width: 1200px; height: 627px; isolation: isolate; background: radial-gradient(ellipse at 77% 48%, rgb(105 182 255 / 7%), transparent 48%), #101114; }
+    .brand { position: absolute; top: 51px; left: 76px; display: flex; align-items: center; gap: 14px; font: 700 29px "JetBrains Mono", monospace; letter-spacing: -1.5px; }
+    .brand svg { width: 40px; height: 40px; }
+    .blue { background: linear-gradient(90deg, #248eff, #69b6ff 50%, #248eff); background-clip: text; -webkit-background-clip: text; color: transparent; }
+    .identity { position: absolute; left: 78px; top: 126px; }
+    h1 { margin: 0; font-size: 46px; font-weight: 700; letter-spacing: -1.4px; line-height: 1.18; white-space: nowrap; }
+    .title-dot { margin-left: .07em; color: #5c9efa; }
+    .professions { display: flex; align-items: center; gap: 28px; margin: 25px 0 0; color: #b3b7c1; font: 500 18px "JetBrains Mono", monospace; }
+    .profession { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; }
+    .profession svg { width: 22px; height: 22px; flex: none; }
+    .terminal { position: absolute; top: 303px; left: 78px; width: 1044px; height: 256px; border: 1px solid #343740; border-radius: 15px; background: #14161b; box-shadow: 0 14px 38px rgb(0 0 0 / 20%), inset 0 1px 0 rgb(255 255 255 / 3%); overflow: hidden; font-family: "JetBrains Mono", monospace; }
+    .terminal::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, #248eff66 20%, #69b6ff 50%, #248eff66 80%, transparent); box-shadow: 0 0 12px #69b6ff44; }
+    .titlebar { height: 39px; display: flex; align-items: center; gap: 9px; padding: 0 22px; color: #969ba8; background: #1b1d23; border-bottom: 1px solid #343740; font-size: 12px; }
+    .led { width: 7px; height: 7px; border-radius: 50%; background: linear-gradient(135deg, #248eff, #69b6ff); }
+    .path { margin-left: auto; margin-right: 325px; }
+    .log { width: 610px; padding: 17px 25px 18px; }
+    .command { height: 33px; display: flex; align-items: center; gap: 13px; font-size: 18px; }
+    .prompt { font-size: 23px; font-weight: 600; }
+    .ok { margin-left: auto; font-size: 16px; font-weight: 700; }
+    .ready { display: flex; align-items: center; gap: 10px; margin-top: 8px; font-size: 16px; font-weight: 600; }
+    .ready svg { width: 20px; height: 20px; }
+    .figure { position: absolute; z-index: 2; right: 29px; top: 10px; height: 472px; width: auto; filter: drop-shadow(0 12px 15px rgb(0 0 0 / 20%)); }
+    .address { position: absolute; left: 78px; bottom: 25px; margin: 0; color: #969ba8; font: 400 15px "JetBrains Mono", monospace; }
+  </style>
+</head>
+<body>
+  <main class="cover">
+    <div class="brand">
+      <svg viewBox="0 0 64 64" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#248eff"/><stop offset=".5" stop-color="#69b6ff"/><stop offset="1" stop-color="#248eff"/></linearGradient></defs><path d="m10 15 19 17-19 17" stroke="url(#blue)"/><path d="M35 49h20" stroke="#f3f4f7"/></svg>
+      <span>carlos<span class="blue">.</span>mdpb</span>
+    </div>
+    <div class="identity">
+      <h1>Carlos Martín de Prado Barragán<span class="title-dot">.</span></h1>
+      <p class="professions">
+        <span class="profession"><svg viewBox="0 0 24 24" fill="none" stroke="url(#profession-blue)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><defs><linearGradient id="profession-blue" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="24" y2="12"><stop stop-color="#248eff" stop-opacity=".8"/><stop offset=".5" stop-color="#69b6ff"/><stop offset="1" stop-color="#248eff" stop-opacity=".8"/></linearGradient></defs><path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 4l-4 16"/></svg>Ingeniero Informático del Software</span>
+        <span class="profession"><svg viewBox="0 0 24 24" fill="none" stroke="url(#profession-blue)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>Ciberseguridad</span>
+      </p>
+    </div>
+    <section class="terminal" aria-label="Terminal con todos los comandos completados">
+      <div class="titlebar"><span class="led"></span><span>terminal</span><span class="path">~/carlosmdpb</span></div>
+      <div class="log">
+        <div class="command"><span class="prompt blue">❯</span><span>whoami</span><span class="ok blue">[OK]</span></div>
+        <div class="command"><span class="prompt blue">❯</span><span>ls ~/proyectos</span><span class="ok blue">[OK]</span></div>
+        <div class="command"><span class="prompt blue">❯</span><span>cat trayectoria.md</span><span class="ok blue">[OK]</span></div>
+        <div class="command"><span class="prompt blue">❯</span><span>cat aptitudes.txt</span><span class="ok blue">[OK]</span></div>
+        <div class="ready"><svg viewBox="0 0 24 24" fill="none" stroke="url(#blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span class="blue">Portfolio listo</span><span class="blue">_</span></div>
+      </div>
+    </section>
+    <img class="figure" src="../dist/assets/carlos-seated.png" alt="Carlos sentado con su portátil, sobre la terminal" width="1024" height="1536">
+    <p class="address">carlosmdpb.github.io</p>
+  </main>
+</body>
+</html>

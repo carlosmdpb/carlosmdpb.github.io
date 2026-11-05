@@ -1,0 +1,4 @@
+# Local previews and reference screenshots are not part of the website.
+/*.png
+__pycache__/
+*.pyc
