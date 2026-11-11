@@ -12,7 +12,7 @@
     'Cambiar a español': 'Switch to Spanish',
     'Ingeniero Informático del Software': 'Software Engineer',
     'Ciberseguridad': 'Cybersecurity',
-    'He desarrollado productos web y móviles. Ahora me centro en la ciberseguridad, el área que más me apasiona, mientras curso un Máster en Ciberseguridad y un Programa Superior Universitario en Ciberseguridad Industrial.': 'I have developed web and mobile products. I am now focusing on cybersecurity, the field I am most passionate about, while studying for a Master’s in Cybersecurity and an Advanced University Programme in Industrial Cybersecurity.',
+    'He desarrollado productos web y móviles. Ahora me centro en la ciberseguridad, el área que más me apasiona, mientras curso un Máster en Ciberseguridad y un Programa Superior Universitario en Ciberseguridad Industrial. También me interesa mucho explorar cómo aplicar la inteligencia artificial en las distintas áreas de la ciberseguridad.': 'I have developed web and mobile products. I am now focusing on cybersecurity, the field I am most passionate about, while studying for a Master’s in Cybersecurity and an Advanced University Programme in Industrial Cybersecurity. I am also very interested in exploring how artificial intelligence can be applied across different areas of cybersecurity.',
     'Contacto y currículum': 'Contact and CV',
     'Descargar CV': 'Download CV',
     'Figura ilustrada de Carlos con un portátil': 'Illustration of Carlos with a laptop',
